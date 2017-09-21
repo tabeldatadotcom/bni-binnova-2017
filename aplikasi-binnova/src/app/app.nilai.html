@@ -1,0 +1,97 @@
+<h1 class="display-4" align="center">Form Penilaian</h1>
+<hr/>
+
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <form>
+
+        <div class="form-group">
+          <label>Nama Tim</label>
+          <input type="text" class="form-control" name="namaTim">
+        </div>
+
+        <div class="form-group">
+          <label>Judul Inovasi</label>
+          <input type="text" class="form-control" name="judulInovasi">
+        </div>
+
+        <div class="form-group">
+          <label>Topik</label>
+          <select name="topik" class="form-control">
+            <option value="inovasi_produk" label="Inovasi Produk"></option>
+            <option value="inovasi_proses_bisnis" label="Inovasi Proses Bisnis"></option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Kategori Peserta Binnova</label>
+          <select name="kategoriPesertaBinnova" class="form-control">
+            <option value="bni_sektor" label="BNI Sektor"></option>
+            <option value="bni_wilayah" label="BNI Wilayah"></option>
+            <option value="bni_perusahaan_anak" label="BNI Perusahaan Anak"></option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Latar Belakang Inovasi</label>
+          <textarea cols="30" rows="10" name="latarBelakangInovasi" class="form-control" ></textarea>
+        </div>
+
+        <div class="form-group">
+          <label>Analisa Situasi (Permasalahan)</label>
+          <input type="text" class="form-control" name="analisaSituasi">
+        </div>
+
+        <div class="form-group">
+          <label>Ide/Solusi & Dampak</label>
+          <input type="text" class="form-control" name="ideSolusiDampak">
+        </div>
+
+        <div class="form-group">
+          <label>File Pendukung</label>
+          <button type="button" class="btn btn-secondary">Download File</button>
+        </div>
+
+      </form>
+    </div>
+
+    <div class="col-6">
+      <form>
+
+        <table class="table">
+          <thead class="thead-default">
+          <tr>
+            <th>No</th>
+            <th>NPP Anggota</th>
+            <th>Nama Anggota</th>
+            <th>Aksi</th>
+          </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+
+        <div>
+          <select name="nilai" class="form-control">
+            <option value="sangat_baik" label="Sangat Baik"></option>
+            <option value="baik" label="Baik"></option>
+            <option value="cukup" label="Cukup"></option>
+            <option value="kurang" label="Kurang"></option>
+          </select>
+        </div>
+
+        <div>
+          <label></label>
+        </div>
+
+        <div class="form-group" align="right">
+          <button type="button" class="btn btn-primary" >Kirim</button>
+          <button type="button" class="btn btn-danger">Batal</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>
